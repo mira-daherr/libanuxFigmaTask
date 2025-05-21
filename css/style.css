@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  padding: 10px 20px;
+
+}
+
+.nav-links{
+    
+    display: flex;
+}
+
+.nav-links li{
+      list-style: none;
+      padding: 16px;
+      
+}
+
+.nav-links a{
+    color: #18191F;
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    gap:15px;
+    
+}
+.btn a{
+    color: #4CAF4F;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn a:hover{
+    color: white;
+    background-color: #4CAF4F;
+    border-radius: 6px;
+    padding: 8px;
+}
