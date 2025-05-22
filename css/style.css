@@ -123,3 +123,48 @@ body {
   transform: translateX(-50%);
   z-index: 0;
 }
+
+
+.client-section {
+  width: 1440px;
+  height: 190px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 144px;
+  box-sizing: border-box;
+  gap: 16px;
+}
+
+.client-content {
+  display: flex;              
+  flex-direction: column;
+  align-items: center;       
+  justify-content: center;   
+  gap: 3px;
+}
+
+
+.client-logos {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.client-logos img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.c1{
+  font-size: 36px;
+  color:#4D4D4D;
+  line-height: 44px;
+
+}
+.cp{
+  color: #717171;
+  font-size: 16px;
+  line-height: 24px;
+}
