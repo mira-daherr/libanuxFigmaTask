@@ -248,11 +248,17 @@ body {
   color: #FFFFFF;
 }
 .achivements{
-    width:auto;
-  height: 288px;
+  
   display: flex;
   justify-content: space-between;
   padding: 64px 144px;
+  background-color: #F5F7FA;
+
+  width: 100vw;    
+  margin-left: calc(-50vw + 50%); 
+ 
+  box-sizing: border-box; 
+
 }
 .achvhea{
  font-family: 'Inter', sans-serif;
