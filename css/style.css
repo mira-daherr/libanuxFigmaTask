@@ -247,3 +247,66 @@ body {
   text-align: center;
   color: #FFFFFF;
 }
+.achivements{
+    width:auto;
+  height: 288px;
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 144px;
+}
+.achvhea{
+ font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0;
+  color:#4D4D4D;
+  
+}
+.sp2{
+    font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0;
+  color: #4CAF4F;
+}
+.counts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+.count-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.row {
+  display: flex;
+  gap: 40px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.count-number {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #4D4D4D;
+}
+
+.count-label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+}
