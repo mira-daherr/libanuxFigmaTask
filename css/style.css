@@ -495,4 +495,127 @@ body {
   text-align: center;
    
 }
+.footer-section {
+  width: 100%;
+  background-color: #F5F7FA;
+  height: 2000px;
+}
 
+.firstfooter {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.firstfooter h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 76px;
+  color: #263238;
+}
+
+.firstfooter button {
+  margin-top: 24px;
+  padding: 14px 32px;
+  background-color: #4CAF4F;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.secondfooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 165px;
+  background-color: #263238;
+  flex-wrap: wrap;
+
+}
+
+.companyinfo {
+  width: 300px;
+  /* color: white; */
+  margin-top: 23px;
+   display: grid;
+  gap: 20px;
+}
+
+.companyinfo p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 8px 0;
+  color:#F5F7FA;
+}
+
+.social-icons {
+  margin-top: 16px;
+}
+
+.footer-icon {
+  padding: 6px;
+}
+
+.links {
+  display: flex;
+  gap: 80px;
+}
+
+.Col1, .Col2, .col3 {
+  color: white;
+}
+
+.Col1 p, .Col2 p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.Col1 li, .Col2 li {
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  
+}
+
+.col3 p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.email-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.email-input {
+  width: 255px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  border: none;
+  padding: 0 12px;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+.send-button {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.Col1 ul, .Col2 ul {
+  padding-left: 0;
+  margin-left: 0;
+}
